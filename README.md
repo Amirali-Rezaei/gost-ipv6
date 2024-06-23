@@ -1,3 +1,3 @@
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Amirali-Rezaei/Gost-ip6/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Amirali-Rezaei/gost-ipv6/main/install.sh)
 ```
