@@ -12,7 +12,7 @@ echo $'\e[35m'"  ___|              |        _ _|  _ \   /
 \____|\___/  ____/ \__|      ___|_|    \___/  
                                               "$'\e[0m'
 
-echo -e "\e[36mCreated By Masoud Gb Special Thanks Hamid Router\e[0m"
+echo -e "\e[36mCreated By Masoud Gb Special Thanks Hamid Router, Updated by R4li\e[0m"
 echo $'\e[35m'"Gost Ip6 Script v2.2.0"$'\e[0m'
 
 options=($'\e[36m1. \e[0mGost Tunnel By IP4'
@@ -127,7 +127,7 @@ systemctl enable sysctl-custom
     else
         if [ "$gost_version_choice" -eq 2 ]; then
     echo $'\e[32mInstalling Gost version 3.0.0, please wait...\e[0m'
-    wget -O /tmp/gost.tar.gz https://github.com/go-gost/gost/releases/download/v3.0.0-nightly.20241002/gost_3.0.0-nightly.20241002_linux_amd64.tar.gz
+    wget -O /tmp/gost.tar.gz https://github.com/go-gost/gost/releases/download/v3.0.0-nightly.20241022/gost_3.0.0-nightly.20241022_linux_amd64.tar.gz
     tar -xvzf /tmp/gost.tar.gz -C /usr/local/bin/
     chmod +x /usr/local/bin/gost
     echo $'\e[32mGost installed successfully.\e[0m'
@@ -335,7 +335,7 @@ elif [ "$choice" -eq 6 ]; then
             ;;
         2)
             echo $'\e[32mInstalling Gost version 3.0.0, please wait...\e[0m' && \
-            wget -O /tmp/gost.tar.gz https://github.com/go-gost/gost/releases/download/v3.0.0-nightly.20241002/gost_3.0.0-nightly.20241002_linux_amd64.tar.gz
+            wget -O /tmp/gost.tar.gz https://github.com/go-gost/gost/releases/download/v3.0.0-nightly.20241022/gost_3.0.0-nightly.20241022_linux_amd64.tar.gz
     tar -xvzf /tmp/gost.tar.gz -C /usr/local/bin/
     chmod +x /usr/local/bin/gost
             echo $'\e[32mGost installed successfully.\e[0m'
